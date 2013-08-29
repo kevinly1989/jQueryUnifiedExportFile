@@ -17,13 +17,16 @@ In order to use this library, you must include jQuery 1.7.2 or higher version
 Tested OK on almost all browsers such as IE7+, Opera, Firefox, Google Chrome, Safari
 
 ### SAMPLES ###
-> <script src="/Scripts/jquery-1.7.2.min.js"></script>
-> <script src="/Scripts/jquery-unified-export-file-1.0.min.js"></script>
-> <script type="text/javascript">
->     $(function () {
->         $.UnifiedExportFile({ action: '/', data: { IsExportExcel: true }, downloadType: 'Progress', ajaxLoadingSelector: '#loading' });
->     });
-> </script>
+> Here's example code:
+`````javascript
+   <script src="/Scripts/jquery-1.7.2.min.js"></script>
+   <script src="/Scripts/jquery-unified-export-file-1.0.min.js"></script>
+   <script type="text/javascript">
+       $(function () {
+          $.UnifiedExportFile({ action: '/', data: { IsExportExcel: true }, downloadType: 'Progress', ajaxLoadingSelector: '#loading' });
+       });
+   </script>
+`````
 
 ### MORE INFORMATION ###
 In order to know the further details, please go to the web address (https://exportfilebyjqueryaspnet.codeplex.com/) and (https://jqueryunifiedexportfile.codeplex.com/)
